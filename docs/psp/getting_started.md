@@ -51,13 +51,21 @@ You can also run the game unpacked which may help for modding faster. **NOTE: Th
 
 !!! warning
 
-    This is currently limited to GTPSP EU 2.00. Feel free to port the patch to other regions.
+    This is currently limited to listed version of GTPSP. Feel free to port the patch to other regions.
 
 Requirements:
 
 * Game is registered as a folder game rather than iso.
 * Proper file structure as shown below. Volume contents must be extracted directly at the root.
-* [Patch](patches/UCES01245.ini) (currently GTPSP EU 2.00 only). **Right-click save to**
+!!! abstract "Patch"
+
+    **Right-click save to**
+
+    ??? abstract "UCES01245"
+        [Patch EU(2.00)](patches/UCES01245.ini)
+
+    ??? abstract "UCJS10100"
+        [Patch JP(1.01)](patches/UCJS10100.ini)
 
 Once that is done:
 
