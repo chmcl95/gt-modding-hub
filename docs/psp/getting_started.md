@@ -19,7 +19,7 @@ These pages currently cover **GT PSP**.
 
 GT PSP uses the [volume system](../concepts/volume.md), which will need to be extracted in order to gain access to game contents.
 
-If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT3.VOL` file.
+If you haven't already, extract the `.iso` file using [7-Zip](https://www.7-zip.org/) or by any other means. You should be able to see a `GT.VOL` file.
 
 Using `GTPSPVolTools`, unpack the volume file as such
 
@@ -82,14 +82,31 @@ Once that is done:
     ```{ .sh .no-copy }
     .
     ├─ GTPSP/  # This is the game folder.
-       ├─ PRX/ # < Copy the folder from PSP_GAME/USRDIR/PRX!
        ├─ advertise/
        ├─ car/
-       ├─ ...
+       ├─ carsound/
+       ├─ character/
+       ├─ crs/
+       ├─ description/
+       ├─ font/
+       ├─ icon/
+       ├─ movie/
+       ├─ piece_gt5m/
+       ├─ products/
+       ├─ projects/
+       ├─ PRX/ # < Copy "PSP_GAME/USRDIR/MODULE" from GTPSP ISO.
+       |   ├─LIBFONT.PRX
+       |   ├─LIBSUPPREACC.PRX
+       |   └─PSMF.PRX
        ├─ PSP_GAME/
        |  └─ ...
+       ├─ replay/
+       ├─ scripts/
+       ├─ sound_gt/
+       ├─ specdb/
+       ├─ textdata/
+       ├─ wheel/
        └─ UMD_DATA.BIN
-    ...
     ```
 
 !!! abstract "How does it work?"
